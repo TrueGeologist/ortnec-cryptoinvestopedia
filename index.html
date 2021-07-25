@@ -1,0 +1,692 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Обязательные метатеги -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Шрифты Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gelasio:ital,wght@0,400;0,700;1,400&family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    
+    <!-- Стили bootstrap 5.0.1 -->
+    <link rel="stylesheet" href="./style/bootstrap-5.0.1-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="./style/bootstrap-5.0.1-dist/css/bootstrap-grid.css">
+    <link rel="stylesheet" href="./style/bootstrap-5.0.1-dist/css/bootstrap-reboot.css">
+
+    <!-- Кастомные стили -->
+    <link rel="stylesheet" href="./style/style.css">
+
+    <title>Crypto Investopedia</title>
+</head>
+<body>
+    <header class="header">
+        <div class="header__about">
+            <div class="container">
+                <div class="row justify-content-between">
+                    <div class="col">
+                        <ul class="header__list">
+                            <li class="header__item">
+                                <a href="#" class="header__link">About</a>
+                            </li>
+                            <li class="header__item">
+                                <a href="#" class="header__link">Editional Policy</a>
+                            </li>
+                            <li class="header__item">
+                                <a href="#" class="header__link">Privacy Policy</a>
+                            </li>
+                            <li class="header__item">
+                                <a href="#" class="header__link">Terms of use</a>
+                            </li>
+                            <li class="header__item">
+                                <a href="#" class="header__link">Advertise</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col header__login">
+                        <a href="#" class="header__login-link">
+                            <img class="header__login-icon" src="./img/login-icon.svg" alt="">
+                            Log in/Sign in
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="header__menu">
+            <div class="container">
+                <div class="row justify-content-between">
+                    <div class="col-md-4 col-sm-11 align-self-center header__logo">
+                        <span class="header__logo-blue">CRYPTO</span>
+                        <span class="header__logo-black">INVESTOPEDIA</span>
+                    </div>
+                    
+                    <div class="col-md-8 align-self-center header__nav-col">
+                        <nav class="header__nav">
+                            <a href="#" class="header__nav-item">
+                                LATEST NEWS
+                            </a>
+                            <a href="#" class="header__nav-item">
+                                CORONAVIRUS
+                            </a>
+                            <a href="#" class="header__nav-item">
+                                WATHLIST
+                            </a>
+                            <a href="#" class="header__nav-item">
+                                MARKETS
+                            </a>
+                            <a href="#" class="header__nav-item">
+                                INVESTING
+                            </a>
+                        </nav>
+                    </div>
+
+                    <button class="header__burger">
+                        <svg width="30" height="30" viewbox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M0.937476 9.375H29.0624C29.58 9.375 29.9999 8.95496 29.9999 8.43752C29.9999 7.92 29.5799 7.50005 29.0624 7.50005H0.937476C0.419955 7.50005 0 7.92008 0 8.43752C0 8.95496 0.420033 9.375 0.937476 9.375Z" fill="black"/>
+                            <path d="M29.0624 14.0625H0.937476C0.419955 14.0625 0 14.4826 0 15C0 15.5174 0.420033 15.9375 0.937476 15.9375H29.0624C29.58 15.9375 29.9999 15.5174 29.9999 15C29.9999 14.4826 29.58 14.0625 29.0624 14.0625Z" fill="black"/>
+                            <path d="M29.0625 20.625H10.3125C9.79495 20.625 9.375 21.045 9.375 21.5625C9.375 22.08 9.79503 22.5 10.3125 22.5H29.0625C29.58 22.5 29.9999 22.0799 29.9999 21.5625C30 21.045 29.58 20.625 29.0625 20.625Z" fill="black"/>
+                        </svg>                            
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-sm-12">
+                    <div class="breadcrumbs-links">
+                        <ul class="breadcrumbs-links__list">
+                            <li class="breadcrumbs-links__item">
+                                <a href="#" class="breadcrumbs-links__link">Home</a>
+                            </li>
+                            <li class="breadcrumbs-links__item">
+                                <a href="#" class="breadcrumbs-links__link">Page level 2</a>
+                            </li>
+                            <li class="breadcrumbs-links__item">
+                                <a href="#" class="breadcrumbs-links__link">Current page</a>
+                            </li>
+                        </ul>
+                    </div>
+        
+                    <article class="article">
+                        <div class="article__wrapper">
+                            <div class="article__tag">
+                                NEWS
+                            </div>
+        
+                            <div class="article__info">
+                                <h1 class="article__main-heading">
+                                    Meet the software engineer who used crypto to buy his $650,000 dream home
+                                </h1>
+                                <div class="article__stats-social">
+                                    <ul class="article__stats">
+                                        <li class="article__author-date">
+                                            <span class="article__author">
+                                                By Jacob Passy
+                                            </span>
+                                            <span class="article__date">
+                                                June 15, 2021
+                                            </span>
+                                        </li>
+                                        <li class="article__counts">
+                                            <span class="article__comments">8 comments</span>
+                                            <span class="article__views">23 200 views</span>
+                                        </li>
+                                    </ul>
+                                    <div class="article__social">
+                                        <span class="article__share">Share:</span>
+                                        <a href="#" class="article__fb-link">
+                                            <img src="./img/facebook.svg" alt="">
+                                        </a>
+                                        <a href="#" class="article__twitter-link">
+                                            <img src="./img/twitter.svg" alt="">
+                                        </a>
+                                        <a href="#" class="article__pinterest-link">
+                                            <img src="./img/pinterest.svg" alt="">
+                                        </a>
+                                        <a href="#" class="article__linkedin-link">
+                                            <img src="./img/linkedin.svg" alt="">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+        
+                            <p class="article__shortcut">
+                                “You can’t pay your closing costs with a Van Gogh — it’s the same with your bitcoin”
+                            </p>
+        
+                            <img class="article-image" src="./img/image2.jpg" alt="">
+        
+                            <p class="article__paragraph">
+                                When Terrance Leonard first started seriously investing in the cryptocurrency space in 2019, his original goal was to achieve financial independence.
+                                <br>
+                                <br>
+                                The long-term plan was to invest enough in crypto that he could cash out of some of those investments, purchase real-estate assets and rent those out to earn additional income. That way he wouldn’t necessarily need to a work a traditional job to make ends meet.
+                                <br>
+                                <br>
+                                But then his ideal home came on the market. Leonard, who works as a software engineer in Washington, D.C., already owned a row-home. But he wanted a home with a larger yard for his dog to play in and a garage.
+                                <br>
+                                <br>
+                                “I thought, ‘This is exactly what I want,’” Leonard said. “And I’m ready to pull the trigger right now.”
+                                <br>
+                                <br>
+                                To afford the $650,000 home, Leonard opted to use his cryptocurrency investments to cover a down payment and as proof of funds for the mortgage he took out to buy the home — he opted for a mortgage, rather than buying the home outright, because of the low interest-rate environment.
+                                <br>
+                                <br>
+                                The process, as he would find out, wasn’t as simple as transferring his cryptocurrency holdings to the relevant parties. “There was back and forth between the lender and the title company making sure that was OK,” Leonard said.
+                            </p>
+        
+                            <h2 class="article__headings">
+                                The winning crypto strategy: Think of the dot-com bubble
+                            </h2>
+        
+                            <p class="article__paragraph">
+                                Around two years ago, Leonard went all-in on crypto, taking a big bet on the relatively new asset class. “When I realized the potential of crypto — and I realized how well it was doing for me in the beginning — I sold all of my stocks, my 401(k), everything and moved it all into crypto,” Leonard said.
+                                <br>
+                                <br>
+                                Today, he attributes his ability to purchase his “perfect” home to the success of the investing strategy he adopted. “Without investing in crypto there would have been no way that I would have been able to buy this at the time when it came on the market,” he said.
+                                <br>
+                                <br>
+                                So what was that strategy? To take a long-term approach and target coins that are well-positioned for longevity. That means no meme coins, like Dogecoin DOGEUSD, -7.30%.
+                                <br>
+                                <br>
+                                Instead, Leonard likes to think of the crypto market as being in a similar position as the dot-com boom was in the 1990s, before the bust. “I’m looking for the Googles GOOGL, +0.23%, the HPs HPE, +0.63%, the Oracles ORCL, +3.62%, ” he said.
+                            </p>
+        
+                            <div class="article__quote">
+                                <p class="article__quote-text">
+                                    ‘Without investing in crypto there would have been no way that I would have been able to buy this at the time when it came on the market.’
+                                </p>
+                                <p class="article__quote-author">
+                                    — Terrance Leonard, a software engineer and crypto investor
+                                </p>
+                            </div>
+        
+                            <p class="article__paragraph">
+                                He looks at the top 10 coins, and goes from there. Some of his investments were in bitcoin BTCUSD, -5.47% and Ethereum ETHUSD, -7.81%, but the bulk of his money went toward purchasing Chainlink LINKUSD, -8.07%, a cryptocurrency launched in 2017 that sends real-world data to blockchains.
+                            </p>
+        
+                            <figure class="article__figure">
+                                <img src="./img/image3.jpg" alt="">
+                                <figcaption class="article__figcaption">
+                                    Terrance Leonard, pictured in front of the home he recently bought in Washington, D.C. COURTESY OF TERRANCE LEONARD
+                                </figcaption>
+                            </figure>
+        
+                            <h2 class="article__headings">
+                                Using cryptocurrency to get a mortgage isn’t foolproof
+                            </h2>
+        
+                            <p class="article__paragraph">
+                                When Leonard bought his first home, the process was quite standard. As a veteran, he was able to take advantage of the VA loan program and the process was “pretty seamless.”
+                                <br>
+                                <br>
+                                Originally, he reached out to his lender, Veterans United Home Loans, to see if he could refinance the loan on his first home to convert it into an investment property, which would allow him to get a VA loan for his new home. Ultimately, that wasn’t possible.
+                                <br>
+                                <br>
+                                So when Leonard had to get another loan to purchase the property that caught his eye, he figured he would use his crypto profits for his down payment and the earnest-money deposit. This time around, the process wasn’t as seamless.
+                                <br>
+                                <br>
+                                “There were some issues with proof of funds,” Leonard said. “I just wanted to be able to say, ‘Here’s my wallet.’”
+                            </p>
+        
+                            <div class="article__quote">
+                                <p class="article__quote-text">
+                                    Home buyers will generally have to convert crypto assets into cash to use them for the down payment on a home.
+                                </p>
+                            </div>
+        
+                            <p class="article__paragraph">
+                                He couldn’t just transfer over the crypto investments or show his account on Coinbase to satisfy the lender and his title company. Instead, he needed to cash out into a bank account, like someone might do with money earned in the stock market.
+                                <br>
+                                <br>
+                                The process might have been easier had Leonard sought out a home from a real-estate broker who specializes in transactions involving cryptocurrency. Some brokerages have begun listing properties where the seller only wants to be paid in cryptocurrency, sometimes specifying a specific investment vehicle. Unfortunately for Leonard, those brokerages didn’t have the types of properties he wanted, plus he wasn’t necessarily inclined to make an all-cash (or rather, all-crypto) deal.
+                                <br>
+                                <br>
+                                “We had the lowest interest rates in a very long time, so I was not going to pass up on that opportunity,” he said, adding that he’s more likely to see a better return on his crypto investments, even after taxes, than he would if he sunk all his money into the home.
+                            </p>
+                        </div>
+                    </article>
+        
+                    <section class="comments">
+                        <div class="comments__wrapper">
+                            <h1 class="comments__heading">
+                                Conversation
+                            </h1>
+        
+                            <div class="comments__counter">
+                                8 comments
+                            </div>
+        
+                            <div class="comment">
+                                <div class="comment__body">
+                                    <div class="comment__image">
+                                        <img src="./img/user1.jpg" alt="">
+                                    </div>
+        
+                                    <div class="comment__content">
+                                        <div class="comment__heading">
+                                            <div class="comment__name">
+                                                John Locke
+                                            </div>
+            
+                                            <div class="comment__date">
+                                                15 June, 2021
+                                            </div>
+                                        </div>
+            
+                                        <div class="comment__text">
+                                            Good article, glad to see he did well and was also smart about his crypto investments.
+                                        </div>
+            
+                                        <div class="comment__btns">
+                                            <button class="comment__reply-btn">
+                                                Reply
+                                            </button>
+
+                                            <div class="comment__rating-btns">
+                                                <button class="comment__like-btn">
+                                                    3
+                                                </button>
+                                                <button class="comment__dislike-btn"></button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+        
+                                <div class="comment__children">
+                                    <div class="comment__body">
+                                        <div class="comment__image">
+                                            <img src="./img/user2.jpg" alt="">
+                                        </div>
+            
+                                        <div class="comment__content">
+                                            <div class="comment__heading">
+                                                <div class="comment__name">
+                                                    dan gonsalves
+                                                </div>
+                
+                                                <div class="comment__date">
+                                                    16 June, 2021
+                                                </div>
+                                            </div>
+                
+                                            <div class="comment__text">
+                                                Actually, he was out of his mind to sell all his stocks and 401k, and put all of his financials into bit coin. Happy that he did well, however he is not out of the woods yet. All his financial assets went into bitcoin, but he did not cash in by owning the house, only a down payment. So what he now has is a large mortgage and all financial assets still in PERIL with bitcoin. Good luck with that.
+                                            </div>
+                
+                                            <div class="comment__btns">
+                                                <button class="comment__reply-btn">
+                                                    Reply
+                                                </button>
+                                                <div class="comment__rating-btns">
+                                                    <button class="comment__like-btn">
+                                                        12
+                                                    </button>
+                                                    <button class="comment__dislike-btn"></button>
+                                                </div>
+                                                </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+        
+                            <div class="comment">
+                                <div class="comment__body">
+                                    <div class="comment__image">
+                                        <img src="./img/user3.jpg" alt="">
+                                    </div>
+        
+                                    <div class="comment__content">
+                                        <div class="comment__heading">
+                                            <div class="comment__name">
+                                                Ernest Montague
+                                            </div>
+            
+                                            <div class="comment__date">
+                                                17 June, 2021
+                                            </div>
+                                        </div>
+            
+                                        <div class="comment__text">
+                                            I gotta wonder if the mortgage companies take into account cap gains taxes that will be owed on the Bitcoin transaction and the effect that has on the borrower's ability to service the loan.
+                                        </div>
+            
+                                        <div class="comment__btns">
+                                            <button class="comment__reply-btn">
+                                                Reply
+                                            </button>
+                                            <div class="comment__rating-btns">
+                                                <button class="comment__like-btn">
+                                                    9
+                                                </button>
+                                                <button class="comment__dislike-btn"></button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+        
+                            <div class="comment">
+                                <div class="comment__body">
+                                    <div class="comment__image">
+                                        <img src="./img/user4.jpg" alt="">
+                                    </div>
+        
+                                    <div class="comment__content">
+                                        <div class="comment__heading">
+                                            <div class="comment__name">
+                                                Umb O
+                                            </div>
+            
+                                            <div class="comment__date">
+                                                17 June, 2021
+                                            </div>
+                                        </div>
+            
+                                        <div class="comment__text">
+                                            Aw. This story made my heart feel good. Looking sharp with that pup, too. Nothing but the best to you going forward. This is the American dream at its best. Keep shining.
+                                        </div>
+            
+                                        <div class="comment__btns">
+                                            <button class="comment__reply-btn">
+                                                Reply
+                                            </button>
+                                            <div class="comment__rating-btns">
+                                                <button class="comment__like-btn">
+                                                    32
+                                                </button>
+                                                <button class="comment__dislike-btn"></button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+        
+                            <div class="comment">
+                                <div class="comment__body">
+                                    <div class="comment__image">
+                                        <img src="./img/user5.jpg" alt="">
+                                    </div>
+        
+                                    <div class="comment__content">
+                                        <div class="comment__heading">
+                                            <div class="comment__name">
+                                                Frank Green
+                                            </div>
+            
+                                            <div class="comment__date">
+                                                26 June, 2021
+                                            </div>
+                                        </div>
+            
+                                        <div class="comment__text">
+                                            nice job dude, best of luck....
+                                        </div>
+            
+                                        <div class="comment__btns">
+                                            <button class="comment__reply-btn">
+                                                Reply
+                                            </button>
+                                            <div class="comment__rating-btns">
+                                                <button class="comment__like-btn">
+                                                    12
+                                                </button>
+                                                <button class="comment__dislike-btn"></button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+        
+                            <div class="comment">
+                                <div class="comment__body">
+                                    <div class="comment__image">
+                                        <img src="./img/user6.jpg" alt="">
+                                    </div>
+        
+                                    <div class="comment__content">
+                                        <div class="comment__heading">
+                                            <div class="comment__name">
+                                                Jay Smith
+                                            </div>
+            
+                                            <div class="comment__date">
+                                                3 July, 2021
+                                            </div>
+                                        </div>
+            
+                                        <div class="comment__text">
+                                            So he gambled and it worked out. He could have done the same thing by selling all his assets and going to vegas and putting it all on Red
+                                        </div>
+            
+                                        <div class="comment__btns">
+                                            <button class="comment__reply-btn">
+                                                Reply
+                                            </button>
+                                            <div class="comment__rating-btns">
+                                                <button class="comment__like-btn">
+                                                    24
+                                                </button>
+                                                <button class="comment__dislike-btn"></button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+        
+                            <div class="comment">
+                                <div class="comment__body">
+                                    <div class="comment__image">
+                                        <img src="./img/user7.jpg" alt="">
+                                    </div>
+        
+                                    <div class="comment__content">
+                                        <div class="comment__heading">
+                                            <div class="comment__name">
+                                                Fortis Fortuna Adiuvat
+                                            </div>
+            
+                                            <div class="comment__date">
+                                                8 July, 2021
+                                            </div>
+                                        </div>
+            
+                                        <div class="comment__text">
+                                            Took all his diversified assets (401K and Cryptocurrency) and sank it into an undiversified single family home which is a money pit and traditionally barely keeps up with inflation. Sad.
+                                        </div>
+            
+                                        <div class="comment__btns">
+                                            <button class="comment__reply-btn">
+                                                Reply
+                                            </button>
+                                            <div class="comment__rating-btns">
+                                                <button class="comment__like-btn">
+                                                    24
+                                                </button>
+                                                <button class="comment__dislike-btn"></button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+        
+                                <div class="comment__children">
+                                    <div class="comment__body">
+                                        <div class="comment__image">
+                                            <img src="./img/user8.jpg" alt="">
+                                        </div>
+            
+                                        <div class="comment__content">
+                                            <div class="comment__heading">
+                                                <div class="comment__name">
+                                                    Jourdan Monk Amerson
+                                                </div>
+                
+                                                <div class="comment__date">
+                                                    10 July, 2021
+                                                </div>
+                                            </div>
+                
+                                            <div class="comment__text">
+                                                A pro of this story is that it brings more awareness to the public about the upside and benefits of taking higher risk with cryptocurrency.  I'm also impressed with his commitment to living the good life with his dog and investing to live, not living to invest.  Those are the things that keep you alive and happy longer as long as your other basic needs are met - and it looks like his are. I doubt this man is done investing in crypto, and I bet he'll continue to outperform many more risk-averse investors over the years.
+                                            </div>
+                
+                                            <div class="comment__btns">
+                                                <button class="comment__reply-btn">
+                                                    Reply
+                                                </button>
+                                                <div class="comment__rating-btns">
+                                                    <button class="comment__like-btn">
+                                                        13
+                                                    </button>
+                                                    <button class="comment__dislike-btn"></button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+
+                <div class="col-lg-4">
+                    <aside class="aside">
+                        <div class="search">
+                            <form class="search__form" action="" method="post" novalidate>
+                                <h2 class="search__form-heading">
+                                    Search the blog
+                                </h2>
+                                <input class="search__form-input" placeholder="Search..." type="text">
+                                <button class="search__form-submit-btn" type="submit">SEARCH</button>
+                            </form>
+                        </div>
+        
+                        <div class="more">
+                            <h2 class="more__heading">
+                                More articles
+                            </h2>
+                            <ul class="more__list">
+                                <li class="more__item">
+                                    <a href="#" class="more__link">
+                                        <figure class="more__figure">
+                                            <img class="more_img" src="./img/more1.jpg" alt="">
+                                            <figcaption class="more__figcaption">
+                                                When Terrance Leonard first started seriously investing in the cryptocurrency...
+                                            </figcaption>
+                                        </figure>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+        
+                        <div class="advertising">
+                            <ul class="advertising__list">
+                                <li class="advertising__item">
+                                    <a href="#" class="advertising__link">
+                                        <img class="advertising__img" src="./img/adv1.jpg" alt="">
+                                    </a>
+                                </li>
+                                <li class="advertising__item">
+                                    <a href="#" class="advertising__link">
+                                        <img class="advertising__img" src="./img/adv2.jpg" alt="">
+                                    </a>
+                                </li>
+                                <li class="advertising__item">
+                                    <a href="#" class="advertising__link">
+                                        <img class="advertising__img" src="./img/adv3.jpg" alt="">
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </aside>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__wrapper">
+                <div class="footer__left">
+                    <div class="footer__logo">
+                        <span class="footer__logo-blue">CRYPTO</span>
+                        <span class="footer__logo-white">INVESTOPEDIA</span>
+                    </div>
+    
+                    <span class="footer__copyright">
+                        Copyright © 2021 Investopedia, Inc. All rights reserved.
+                    </span>
+                </div>
+                
+                <div class="footer__links">
+                    <div class="footer__center">
+                        <ul class="footer__list">
+                            <li class="footer__item">
+                                <a href="#" class="footer__link">
+                                    About us
+                                </a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="#" class="footer__link">
+                                    Editional Policy 
+                                </a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="#" class="footer__link">
+                                    Privacy Policy 
+                                </a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="#" class="footer__link">
+                                    California Policy Notice
+                                </a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="#" class="footer__link">
+                                    Terms of Use
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    
+                    <div class="footer__right">
+                        <ul class="footer__list">
+                            <li class="footer__item">
+                                <a href="#" class="footer__link">
+                                    Advertise
+                                </a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="#" class="footer__link">
+                                    Contact Us
+                                </a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="#" class="footer__link">
+                                    Dictionary
+                                </a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="#" class="footer__link">
+                                    News
+                                </a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="#" class="footer__link">
+                                    Careers
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
